@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M ilyas Reskiawan</title>
+    <link rel="stylesheet" href="tes.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h1>M ILYAS RESKIAWAN IN</h1>
+        <div class="navbar-nav">
+          <a href="#beranda">Beranda</a>
+          <a href="#tentang-saya">Tentang Saya</a>
+          <a href="#portofolio">Sertifikat</a>
+          <a href="#kontak">Kontak</a>
+        </div>
+        <div class="navbar-extra">
+          <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- beranda =============================================================== -->
+      <article id="beranda">
+        <section class="left-beranda">
+          <p>Halo Semua &#128075;, saya</p>
+          <h1>M Ilyas Reskiawan In</h1>
+          <h2>Saya adalah Mahasiswa universitas Muslim indonesia Makassar</h2>
+          <a href="http://wa.me/6282193107379">Hubungi Saya</a>
+        </section>
+        <aside class="right-beranda">
+          <img src="./assets/ilyas.png" alt="M NUR ICHSAN IN" />
+        </aside>
+      </article>
+
+      <!-- tentang saya =============================================================== -->
+      <article id="tentang-saya">
+        <h2>Tentang Saya</h2>
+        <p>
+          Saya adalah seorang mahasiswa semester 4 jurusan teknik informatika
+          dari Universitas Muslim Indonesia yang saat ini sedang fokus mendalami
+          Jaringan dan keamanan cyber security
+        </p>
+      </article>
+
+      <!-- portofolio =============================================================== -->
+      <div class="body-container">
+        <section id="portofolio">
+          <div class="top-portofolio">
+            <h2>sertifikat</h2>
+            <h3>sertifikat yang telah dicapai</h3>
+            <p>Dibawah ini adalah salah satu sertifikat hasil Pelatihan saya</p>
+          </div>
+          <div class="bottom-portofolio">
+            <figure>
+              <img
+                src="./assets/Untitled.jpeg"
+                alt="Sertifikat Pelatihan Pertanian"
+              />
+              <p>Sertifikat Pelatihan Pertanian</p>
+            </figure>
+          </div>
+        </section>
+      </div>
+
+      <!-- kontak =============================================================== -->
+      <section id="kontak">
+        <div class="top-kontak">
+          <h2>Kontak</h2>
+          <h3>Hubungi Saya</h3>
+          <p>Kamu bisa mengirimi saya pesan lewat form dibawah ini</p>
+        </div>
+        <section class="bottom-kontak">
+          <form action="https://formspree.io/f/mwkzqlvq" method="POST">
+            <label for="nama">Nama</label>
+            <input type="text" name="name" /><br />
+            <label for="email">Email</label>
+            <input type="email" name="email" /><br />
+            <label for="message">Pesan</label>
+            <textarea type="email" name="message" rows="5"></textarea>
+            <button type="submit">Kirim</button>
+          </form>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <section class="top-footer">
+        <h3>Mari berteman</h3>
+        <p>
+          Ingin mengenal saya lebih dalam? Yuk! Kunjungi akun media sosial saya
+          lewat icon yang ada dibawah ini &#128071;
+        </p>
+        <div class="icon-figure">
+          <figure class="icon">
+            <a href=""
+              ><img
+                src="./assets/instagram.svg"
+                alt="Instagram"
+                width="40"
+                height="40"
+            /></a>
+          </figure>
+
+          <figure class="icon">
+            <a href=""
+              ><img
+                src="./assets/facebook.svg"
+                alt="facebook"
+                width="40"
+                height="40"
+            /></a>
+          </figure>
+
+          <figure class="icon">
+            <a href="https://github.com/MhmmdIlyas"
+              ><img
+                src="./assets/github.svg"
+                alt="github"
+                width="40"
+                height="40"
+            /></a>
+          </figure>
+
+          <figure class="icon">
+            <a href="https://wa.me/6282193107379"
+              ><img
+                src="./assets/whatsapp.svg"
+                alt="whatsapp"
+                width="40"
+                height="40"
+            /></a>
+          </figure>
+        </div>
+      </section>
+      <hr />
+      <p class="footer_copy">&copy; By M Ilyas Reskiawan In</p>
+    </footer>
+    <!-- navbar end-->
+    <script>
+      feather.replace();
+    </script>
+    <script src="./app.js"></script>
+  </body>
+</html>
